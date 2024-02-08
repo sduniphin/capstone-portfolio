@@ -1,0 +1,16 @@
+body {
+  color: #da676e;
+  background-color: #d5b5b890;
+
+}
+
+.head {
+  display: grid;
+  background-image: url(../assets/images/background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 5fr;
+  grid-template-rows: 5fr;
+  width: 100vp;
+}
