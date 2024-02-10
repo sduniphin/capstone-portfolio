@@ -118,7 +118,7 @@ p {
   padding: 2rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   body {
     font-size: 1.2rem;
   }
@@ -142,9 +142,19 @@ p {
     font-size: 1.2rem;
     padding: 0.7rem;
   }
+  .project-image {
+    height: 100px !important;
+    float: none !important;
+  }
+  .project-description {
+    display: block !important;
+    text-align: center !important;
+  }
 }
 
-@media (min-width: 481px) and (max-width: 1200px) {
+
+
+@media (min-width: 769px) and (max-width: 1200px) {
   body {
     font-size: 1.3rem;
   }
@@ -168,6 +178,14 @@ p {
     font-size: 1.3rem;
     padding: 0.8rem;
   }
+  .project-image {
+    height: 200px !important;
+    float: none ;
+  }
+  .project-description {
+    display: block !important;
+    text-align: center !important;
+  }
 }
 
 @media (min-width: 1201px) and (max-width: 1600px) {
@@ -190,4 +208,10 @@ p {
     font-size: 1.5rem;
     padding: 1rem;
   }
+  .project-image {
+    height: 250px;
+  }
 }
+
+
+ 
