@@ -147,9 +147,8 @@ p {
     float: none;
   }
   .project-description {
-    display: block !important;
-    text-align: center !important;
-  }
+    display: block;
+    text-align: center;
 }
 
 
@@ -178,13 +177,13 @@ p {
     font-size: 1.3rem;
     padding: 0.8rem;
   }
-  .project-image {
-    height: 200px !important;
-    float: none ;
+  img.project-image {
+    height: 200px;
+    float: none;
   }
   .project-description {
-    display: block !important;
-    text-align: center !important;
+    display: block;
+    text-align: center;
   }
 }
 
@@ -208,7 +207,7 @@ p {
     font-size: 1.5rem;
     padding: 1rem;
   }
-  .project-image {
+  img.project-image {
     height: 250px;
   }
 }
