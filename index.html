@@ -11,15 +11,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap" rel="stylesheet">
 </head>
 <body>
-  <section class="header">
+  <section id="header">
     <header>
       <div class="container">
         <h1>Sara Duniphin</h1>
         <nav>
           <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a class="header-link" href="#about">About</a></li>
+            <li><a class="header-link" href="#projects">Projects</a></li>
+            <li><a class="header-link" href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -28,11 +28,12 @@
   
     <section id="about">
       <div class="container">
-        <img class="profile-image" src="./assets/images/sara.jpg" alt="Sara Duniphin">
+        <img class="profile-image" src="./assets/images/sara2.jpg" alt="Sara Duniphin">
         <h2>About Me</h2>
         <p>Hi, I'm Sara! I'm a full-stack web developer with a passion for creating beautiful, functional websites. I'm a recent graduate of the University of Washington's Full-Stack Web Development Bootcamp, and I'm excited to start my career in web development. I'm skilled in HTML, CSS, JavaScript, Node.js, Express.js, MySQL, and React.js. I'm also a quick learner and a great problem-solver. I'm looking for a position where I can continue to grow and learn, and where I can contribute to a team that values creativity and innovation.</p>
       </div>
     </section>
+    <hr class="styled" />
     <section id="projects">
       <div class="container">
         <h2>Projects</h2>
@@ -49,5 +50,28 @@
           <p>This is a description of my third project. I worked on this project with a partner, and we used HTML, CSS, and JavaScript to create a beautiful, functional website that met all of our project requirements. We also used Node.js and Express.js to create a back-end server that handled all of the data for the front-end.</p>
         </div>
       </div>
+    </section>
+    <hr class="styled" />
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>If you're interested in working with me, please feel free to reach out. I'm always looking for new opportunities to learn and grow, and I'd love to hear from you!</p>
+        <a href="mailto:sara.duniphin@gmail.com">
+        <button type="button">Contact Me</button>
+        </a>
+      </div>
+    </section>
+    <section id="footer">
+      <footer>
+        <div class="container">
+          <p>&copy; 2024 Sara Duniphin</p>
+          <ul>
+            <li><a class="footer-link" href="#about">About</a></li>
+            <li><a class="footer-link" href="#projects">Projects</a></li>
+            <li><a class="footer-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </footer>
+    </section>
  </body>
 </html>

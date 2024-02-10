@@ -1,5 +1,5 @@
 body {
-  color: #F69691;
+  color: #779890;
   background-color: #F6E3E0;
   font-size: 1.5rem;
   text-align: center;
@@ -14,16 +14,21 @@ header {
   align-items: center;
 }
 
-.header {
+#header {
   background-image: url(../assets/images/background.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 90vh;
 }
 
-a {
+.header-link {
   color: #779890;
   text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
 
 li {
@@ -40,10 +45,136 @@ h1 {
   text-align: center;
   margin: 0;
   padding: 0;
+  color: #f5807a;
+}
+
+h2 {
+  padding: 2rem;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #F69691;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+
+  padding: 1rem;
 }
 
 .profile-image {
   width: 250px;
   border-radius: 50%;
   margin: 6rem;
+}
+
+#footer {
+  background-image: linear-gradient(to bottom, #ABBEB4, #779890);
+  color: #F6E3E0;
+  padding: 2rem;
+  width: 100%;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-link {
+  color: #F6E3E0;
+  text-decoration: none;
+}
+
+button {
+  background-image: linear-gradient(to bottom, #F69691, #cb6762);
+  color: #F6E3E0;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+
+hr.styled {
+  border: 2px dotted #F69691;
+  margin: 0 auto;
+  width: 30%;
+}
+
+p {
+  padding: 2rem;
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  a {
+    display: block;
+    font-size: 1.5rem;
+  }
+  .profile-image {
+    width: 100px;
+  }
+  button {
+    font-size: 1.2rem;
+    padding: 0.7rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  body {
+    font-size: 1.3rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
+  h3 {
+    font-size: 1.7rem;
+  }
+  a {
+    display: block;
+    font-size: 1.5rem;
+  }
+  .profile-image {
+    width: 150px;
+  }
+  button {
+    font-size: 1.3rem;
+    padding: 0.8rem;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  body {
+    font-size: 1.4rem;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  .profile-image {
+    width: 200px;
+  }
+  button {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
 }
