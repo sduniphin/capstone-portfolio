@@ -142,9 +142,9 @@ p {
     font-size: 1.2rem;
     padding: 0.7rem;
   }
-  .project-image {
-    height: 100px !important;
-    float: none !important;
+  img.project-image {
+    height: 100px;
+    float: none;
   }
   .project-description {
     display: block !important;
