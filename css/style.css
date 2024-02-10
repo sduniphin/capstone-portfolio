@@ -26,6 +26,17 @@ header {
   text-decoration: none;
 }
 
+.footer-link {
+  color: #F6E3E0;
+  text-decoration: none;
+}
+
+.project-description {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -57,8 +68,8 @@ h2 {
 
 h3 {
   font-size: 2rem;
-  font-weight: bold;
-
+  font-weight: 700;
+  color: #ABBEB4;
   padding: 1rem;
 }
 
@@ -66,6 +77,13 @@ h3 {
   width: 250px;
   border-radius: 50%;
   margin: 6rem;
+}
+
+.project-image {
+  height: 300px;
+  border-radius: 20px;
+  margin: 2rem;
+  float: left;
 }
 
 #footer {
@@ -77,11 +95,6 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.footer-link {
-  color: #F6E3E0;
-  text-decoration: none;
 }
 
 button {
